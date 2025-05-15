@@ -14,7 +14,7 @@ service = Service(ChromeDriverManager().install())
 driver = webdriver.Chrome(service=service)
 
 # 目标URL
-url = 'https://bklog.woa.com'  # 这里替换为你的目标URL
+url = 'https://xxx'  # 这里替换为你的目标URL
 driver.get(url)
 
 # 获取页面截图
